@@ -1,0 +1,22 @@
+<div>
+
+    <label for="firstname">First Name:
+    </label>
+    <input name="firstName" type="text" ng-model="firstName" required/><br/>
+    </label>
+    <input type="submit" value="Submit"  ng-click="submit()"/>
+
+    <table>
+        <th>FirstName</th>
+
+        <tr ng-repeat="data1 in searchResult">
+            <td><input type="text" ng-model="data1.firstName"></td>
+
+
+        </tr>
+    </table>
+    <p style="font-family:arial;color:green;font-size:20px;">{{result}}</p>
+
+    <p style="font-family:arial;color:red;font-size:20px;">{{result1}}</p>
+
+</div>

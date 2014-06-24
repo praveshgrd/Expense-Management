@@ -1,0 +1,6 @@
+{
+ "myData":[
+    {"FirstName": "Pravin","LastName": "kumar","Address":"Tamilnadu","Email":"pravin@gmail.com" },
+    {"FirstName": "Deepak","LastName": "Singh","Address":"Bangalore","Email":"Deepak@gmail.com" },
+    {"FirstName": "Pradeep","LastName": "Rai","Address":"karur","Email":"pradeep@gmail.com" }]
+}
